@@ -8,9 +8,9 @@ should be used to document how to use ```VE-Common``` library.
 
 - Circle CI is used to automatically publish only ```VE-Common```, the library and not the app, to npm registry. The publish
 job is only run on successful merge to ```master``` branch. Any other projects that need to use this library can just install it
-direclty from npm registry.
+directly from npm registry.
 
-- Dont forget to increment projects/ve-common/package.json to the appropriate version before the library is published to npm.
+- Don't forget to increment projects/ve-common/package.json to the appropriate version before the library is published to npm.
 
 ## Installation
 - Install Node 10.8.0.
